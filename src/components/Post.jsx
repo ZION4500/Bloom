@@ -1,6 +1,6 @@
 import tokyo from '../assets/tokyo.png'
 import bg from '../assets/bg.png'
-import forest from '../assets/image.png'
+import forest from '../assets/forest.png'
 
 
 export default function Post() {
