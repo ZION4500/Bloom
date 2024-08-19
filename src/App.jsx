@@ -2,6 +2,7 @@ import Home from "./Pages/Home"
 import Posts from "./Pages/Post"
 import Cont from "./Pages/contact"
 import About from "./Pages/about"
+import Error from "./Pages/404"
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/posts" element={<Posts/>} />
           <Route path="/contact" element={<Cont/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="*" element={<Error/>} />  
         </Route>
       </Routes>
     </BrowserRouter>
