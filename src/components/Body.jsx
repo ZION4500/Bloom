@@ -17,9 +17,9 @@ export default function Body() {
                     </div>
                 </div>
             </div>
-            <p className='font-bold text-2xl mx-20 text-center dark:text-white'>Latest posts</p>
+            <p className='font-bold text-2xl mx-20 text-center dark:text-white mb-5'>Latest posts</p>
             <div className="inline-flex flex-row gap-5 flex-wrap justify-center mx-20 mb-10">
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={tokyo} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -28,7 +28,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={land} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -37,7 +37,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={name} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -46,7 +46,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl  border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={tokyo} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -55,7 +55,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl  border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={land} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -64,7 +64,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl  border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={name} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -73,7 +73,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl  border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={tokyo} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -82,7 +82,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl  border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={land} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
@@ -91,7 +91,7 @@ export default function Body() {
                         <p className='text-slate-500 m-5 text-[12px] dark:text-black'>23rd August 2024</p>
                     </div>
                 </div>
-                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl my-8 border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
+                <div className='bg-white rounded w-[300px] h-[350px] text-left shadow-xl  border-gray-300 border-[2px] flex flex-col dark:bg-[#111746] dark:border-none'>
                     <img src={name} alt="" className='p-5' />
                     <p className='text-left text-base px-3 py-2 text-[#52B539]'>Landscape</p>
                     <p className='text-left text-xl px-3  font-bold dark:text-white'>The Intricate View of Tokyo : The Wonders of the Nation</p>
