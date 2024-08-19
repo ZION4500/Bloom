@@ -24,6 +24,7 @@ export default function Header() {
                     <li className=' my-auto text-right text-2xl'><a href="/">Home</a></li>
                     <li className=' my-auto text-right text-2xl'><a href="/posts">Latest Posts</a></li>
                     <li className=' my-auto text-right text-2xl'><a href="/contact">Contact</a></li>
+                    <li className=' my-auto text-right text-2xl'><a href="/about">About</a></li>
                     <li className=' my-auto text-right text-2xl'><input type="text" placeholder='Search' className='rounded-lg p-2 focus:outline-none focus:ring ring-[#77BEB1] ring-3 text-black shadow-lg dark:text-white dark:bg-[#242535]' /></li>
                     <li className=' my-auto text-right text-2xl'><button onClick={toggleLightMode}><img src={lightMode ? light : dark} alt={lightMode ? 'light mode' : 'dark mode'} /></button></li>
                 </ul>
