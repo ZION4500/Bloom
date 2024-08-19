@@ -4,9 +4,9 @@ import forest from "../assets/forest.png";
 
 export default function Post() {
   let posts = [
-    { id: 1, img: forest, theme: "Landscape",color: "#52B539" },
-    { id: 2, img: bg, theme: "Horticulture",color: "#52B539"},
-    { id: 3, img: forest, theme: "Landscape",color: "#52B539"}
+    { id: 1, img: forest, theme: "Landscape" },
+    { id: 2, img: bg, theme: "Horticulture"},
+    { id: 3, img: forest, theme: "Landscape"}
   ];
 
   return (
@@ -14,7 +14,7 @@ export default function Post() {
         {posts.map(post =>(
             <div className="border-black border-opacity-30 border-[1px] h-72 max-w-5xl rounded-lg my-5 flex p-10 dark:shadow-[13px_13px_4px_0px_#00000040] mb-10" key={post.id}>
                  <img src={post.img} alt="anime picture of tokyo" className="px-5" />
-                 <p className={"relative top-48 right-96 bg-["+post.color+"] p-1 h-fit text-white rounded px-2"}>{post.theme}</p>
+                 <p className="relative top-48 right-96 bg-[#52B539] p-1 h-fit text-white rounded px-2">{post.theme}</p>
                  <div>
                    <p className="text-xl font-bold text-left p-5 dark:text-white">
                      The Intricate View of Tokyo : The Wonders of the Nation
