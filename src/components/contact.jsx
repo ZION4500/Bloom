@@ -3,7 +3,7 @@
 export default function Contact() {
     return (
         <main className="bg-contact h-screen">
-            <div className="flex justify-around pt-28">
+            <div className="flex flex-col md:justify-around md:flex-row pt-28">
                 <div className="mx-16">
                     <p className="font-mono text-5xl my-5">Want to <br />collaborate? <br />
                         Let&lsquo;s talk.</p>
@@ -20,7 +20,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="m-5 md:m-0">
                     <form className="bg-white shadow-2xl  border-black border-[1px] rounded-md dark:bg-[#000634] dark:text-white">
                         <p className="font-semibold text-2xl mx-5 mt-7">Send Us a messsage</p>
                         <input type="text" placeholder="Full name *" className="bg-[#D9D9D9] rounded-md p-2 w-80 text-left my-2 mx-5"/>

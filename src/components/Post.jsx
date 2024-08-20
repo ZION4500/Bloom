@@ -6,24 +6,30 @@ export default function Post() {
   let posts = [
     { id: 1, img: forest, theme: "Landscape" },
     { id: 2, img: bg, theme: "Horticulture"},
-    { id: 3, img: forest, theme: "Landscape"}
+    { id: 3, img: forest, theme: "Landscape"},
+    { id: 4, img: forest, theme: "Landscape" },
+    { id: 5, img: bg, theme: "Horticulture"},
+    { id: 6, img: forest, theme: "Landscape"},
+    { id: 7, img: forest, theme: "Landscape" },
+    { id: 8, img: bg, theme: "Horticulture"},
+    { id: 9, img: forest, theme: "Landscape"}
   ];
 
   return (
-    <main  className="mx-52">
+    <main  className="md:mx-52">
         {posts.map(post =>(
-            <div className="border-black border-opacity-30 border-[1px] h-72 max-w-5xl rounded-lg my-5 flex p-10 dark:shadow-[13px_13px_4px_0px_#00000040] mb-10" key={post.id}>
+            <div className="md:flex-row flex-col  border-black border-opacity-30 border-[1px] md:h-72 md:max-w-5xl rounded-lg my-5 mx-5 flex md:p-10 py-10 px-5 dark:shadow-[13px_13px_4px_0px_#00000040] mb-10" key={post.id}>
                  <img src={post.img} alt="anime picture of tokyo" className="px-5" />
-                 <p className="relative top-48 right-96 bg-[#52B539] p-1 h-fit text-white rounded px-2">{post.theme}</p>
+                 <p className="relative top-48 right-96 bg-[#52B539] p-1 h-fit text-white rounded px-2 hidden md:block">{post.theme}</p>
                  <div>
                    <p className="text-xl font-bold text-left p-5 dark:text-white">
                      The Intricate View of Tokyo : The Wonders of the Nation
                    </p>
-                   <p className="px-5 font-[500] dark:text-white">
+                   <p className="px-5 font-[500] dark:text-white ">
                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
                      blanditiis praesentium voluptatum deleniti atq...
                    </p>
-                   <div className="flex px-5 py-2">
+                   <div className=" flex px-5 py-2 ">
                      <p className="pr-2 flex dark:text-white">
                        <svg
                          width="20"

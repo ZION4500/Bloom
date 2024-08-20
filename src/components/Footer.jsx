@@ -4,10 +4,10 @@ export default function Footer() {
     return (
         <footer className="bg-[#D9D9D9] text-black font-sans p-5 flex flex-row justify-around dark:bg-[#000634]">
             <ul className="w-80">
-                <li className="text-xl font-bold pb-2 dark:text-white">About</li>
-                <li className="text-[#6B6666] text-lg pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li className="text-xl font-bold pb-2 dark:text-white hidden md:block">About</li>
+                <li className="text-[#6B6666] text-lg pb-5 hidden md:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 <li className="text-[#6B6666] text-lg dark:text-[#AEA0A0]"><span className="text-black font-bold dark:text-white">Email</span> : info@bloom.net <br />
-                    <span className="text-black font-bold dark:text-white">Phone No</span> : 09056748987</li>
+                <span className="text-black font-bold dark:text-white">Phone No</span> : 09056748987</li>
             </ul>
             <ul>
                 <li className="text-xl font-bold pb-2 dark:text-white">Quick Link</li>
