@@ -24,7 +24,7 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/forgot" element={<Forgot />} />
             <Route path="/updatepassword" element={<UpdatePassword />} />
-            <Route path="/resetpassword" element={<ResetPassword />} />
+            <Route path="/resetpassword/:token" element={<ResetPassword />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
