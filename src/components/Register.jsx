@@ -10,13 +10,7 @@ export default function Register() {
         country: "",
         password: "",
     });
-    // const [name, setName] = useState("");
-    // const [userName, setUserName] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [mobile, setMobile] = useState("");
-    // const [address, setAddress] = useState("");
-    // const [password, setPassword] = useState("");
-    // const [confirmPassword, setConfirmPassword] = useState("");
+
     function Submit(e) {
         e.preventDefault();
 
