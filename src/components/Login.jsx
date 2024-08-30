@@ -3,7 +3,9 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 export default function Login() {
+    const BASE_URL = import.meta.env.REACT_APP_API_BASE_URL
     const [user, setUser] = useState({
         email: "",
         password: "",
@@ -15,7 +17,7 @@ export default function Login() {
     function Submit(event) {
         axios({
             method: "POST",
-            url: "https://finaki-backend.onrender.com/api/v1/auth/login",
+            url: `${BASE_URL}auth/login`,
             data: user,
         }).then((res) => {
             localStorage.setItem("authtoken", res.data.user.token);

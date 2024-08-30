@@ -6,6 +6,7 @@ export default function ResetPassword() {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const { token } = useParams();
+    const BASE_URL = import.meta.env.REACT_APP_API_BASE_URL
 
 
     function submit(event) {
@@ -13,7 +14,7 @@ export default function ResetPassword() {
         if (password === confirmPassword) {
             axios({
                 method: 'put',
-                url: `https://finaki-backend.onrender.com/api/v1/auth/password/reset/${token}`,
+                url: `${BASE_URL}auth/password/reset/${token}`,
                 data: {
                     password: password
                 }

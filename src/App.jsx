@@ -8,6 +8,7 @@ import Register from "./components/Register"
 import Forgot from "./components/Forgot"
 import UpdatePassword from "./components/UpdatePassword"
 import ResetPassword from "./components/ResetPassword"
+import Income from "./components/income"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/forgot" element={<Forgot />} />
             <Route path="/updatepassword" element={<UpdatePassword />} />
             <Route path="/resetpassword/:token" element={<ResetPassword />} />
+            <Route path="/income" element={<Income />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>

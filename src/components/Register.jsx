@@ -1,7 +1,10 @@
 import { useState } from "react";
 import axios from "axios";
 
+
+
 export default function Register() {
+    const BASE_URL = import.meta.env.REACT_APP_API_BASE_URL
     const [user, setUser] = useState({
         name: "",
         username: "",
@@ -16,7 +19,7 @@ export default function Register() {
 
         axios({
             method: "POST",
-            url: "https://finaki-backend.onrender.com/api/v1/auth/register",
+            url: `${BASE_URL}auth/register`,
             data: user,
         })
             .then((res) => {
